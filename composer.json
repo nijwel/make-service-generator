@@ -1,0 +1,27 @@
+{
+    "name": "nijwel/make-service-generator",
+    "description": "A Laravel package to generate service classes.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0"
+    },
+    "authors": [
+        {
+            "name": "Nijwel",
+            "email": "nijwel09@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nijwel\\MakeServiceGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nijwel\\MakeServiceGenerator\\Providers\\MakeServiceGeneratorServiceProvider"
+            ]
+        }
+    }
+}
